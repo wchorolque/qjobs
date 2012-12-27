@@ -16,7 +16,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    position.cpp
+    position.cpp \
+    employer.cpp
 
 HEADERS += \
-    position.h
+    position.h \
+    employer.h
