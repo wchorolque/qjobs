@@ -17,8 +17,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     position.cpp \
-    employer.cpp
+    employer.cpp \
+    person.cpp
 
 HEADERS += \
     position.h \
-    employer.h
+    employer.h \
+    person.h

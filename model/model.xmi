@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2012-12-27T01:27:07" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
+<XMI verified="false" xmi.version="1.2" timestamp="2012-12-27T01:36:58" xmlns:UML="http://schema.omg.org/spec/UML/1.3">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
@@ -32,24 +32,24 @@
       </UML:Package>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ZjTy1gJWZbmk" name="Person">
        <UML:Classifier.feature>
-        <UML:Attribute visibility="private" isSpecification="false" xmi.id="FN7oxsXDxQbb" type="cSNEabDiLuRX" name="m_Name"/>
-        <UML:Attribute visibility="private" isSpecification="false" xmi.id="FVjp2nOHBU48" type="q7CbGLqXBkVl" name="m_Employed"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="FN7oxsXDxQbb" type="v7fqU24bKrCe" name="m_Name"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="FVjp2nOHBU48" type="rFojf8r4Iad2" name="m_Employed"/>
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="MbJHztq4miHL" type="G5tOgiKGAhVl" name="m_Position"/>
-        <UML:Attribute visibility="private" isSpecification="false" xmi.id="fvxSbEnfRyi1" type="GiRaas77cZ6b" name="m_employer"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="fvxSbEnfRyi1" type="GiRaas77cZ6b" name="m_Employer"/>
         <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="oOiTbNVNZR7C" name="Person">
          <UML:BehavioralFeature.parameter>
-          <UML:Parameter visibility="private" isSpecification="false" xmi.id="jXctcEkgxWTN" type="cSNEabDiLuRX" value="" name="name"/>
-         </UML:BehavioralFeature.parameter>
-        </UML:Operation>
-        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="HaJzBMdzkMQJ" name="toString">
-         <UML:BehavioralFeature.parameter>
-          <UML:Parameter kind="return" xmi.id="fkVzlOt04TAC" type="cSNEabDiLuRX"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="g90FeN8GKHuY" type="v7fqU24bKrCe" value="" name="name"/>
          </UML:BehavioralFeature.parameter>
         </UML:Operation>
         <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="hvhGNmQ4J3vw" name="setPosition">
          <UML:BehavioralFeature.parameter>
           <UML:Parameter visibility="private" isSpecification="false" xmi.id="HfaCA3aPbtOm" type="GiRaas77cZ6b" value="" name="employer"/>
           <UML:Parameter visibility="private" isSpecification="false" xmi.id="D1mvNAE36vJR" type="G5tOgiKGAhVl" value="" name="position"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="HaJzBMdzkMQJ" name="toString">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="fkVzlOt04TAC" type="v7fqU24bKrCe"/>
          </UML:BehavioralFeature.parameter>
         </UML:Operation>
        </UML:Classifier.feature>
@@ -96,6 +96,7 @@
       </UML:Class>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="PqEWWtM7keVA" name="Person&amp;"/>
       <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="v7fqU24bKrCe" name="QString"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="rFojf8r4Iad2" name="QBool"/>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams>
@@ -119,7 +120,7 @@
            <startpoint startx="140" starty="180"/>
            <endpoint endx="140" endy="240"/>
           </linepath>
-          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="none" textcolor="#000000" usesdiagramusefillcolor="1" x="50" showstereotype="1" y="210" text="m_employer" font="Ubuntu,10,-1,5,50,0,0,0,0,0" pretext="-" role="710" width="90" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="2ihSBZ4iEkdZ" height="20"/>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="none" textcolor="#000000" usesdiagramusefillcolor="1" x="50" showstereotype="1" y="210" text="m_Employer" font="Ubuntu,10,-1,5,50,0,0,0,0,0" pretext="-" role="710" width="90" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="2ihSBZ4iEkdZ" height="20"/>
          </assocwidget>
         </associations>
        </diagram>
@@ -142,7 +143,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="dMjaRxCVm9AH" uniqueid="ez9eDaMGrQJA" documentation=""/>
+  <docsettings viewid="dMjaRxCVm9AH" uniqueid="rFojf8r4Iad2" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="821" id="Component View"/>
@@ -186,6 +187,7 @@
       <listitem open="0" type="815" id="Vib6ZzrmybfM"/>
       <listitem open="0" type="815" id="u9GskwCTqZLb"/>
      </listitem>
+     <listitem open="1" type="813" id="rFojf8r4Iad2"/>
      <listitem open="1" type="813" id="v7fqU24bKrCe"/>
     </listitem>
     <listitem open="1" type="802" id="Use Case View"/>
